@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0e515ca39f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="outer">
+        <section class="left">
+            <h2>Get in touch.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga excepturi dignissimos deleniti qui vel iste asperiores nemo!</p>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="4ef22e8d-e439-40c3-a60e-efaace963993">
+                <label for="name">Name*</label>
+                <input type="text" name="name" id="name" placeholder="T'Challa">
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" placeholder="tchalla@wakanda.gov">
+                <label for="message">Message*</label>
+                <textarea name="message" id="message" placeholder="Message..."></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section class="right">
+            <div class="brand">
+                <h1><i class="fa-solid fa-asterisk"></i> Service UI</h1>
+            </div>
+            <div class="review">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>I had an excellent experience with this service! From the moment I started using it, I was impressed by its quality and performance. The attention to detail and user-friendly design really stood out, making it easy to get started and achieve great results.</p>
+                <p>-<strong> Jason Wong</strong> Product Designer</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
